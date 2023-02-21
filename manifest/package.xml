@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Flow_using_field_in_Assignment</members>
+        <name>Flow</name>
+    </types>
+    <version>56.0</version>
+</Package>
