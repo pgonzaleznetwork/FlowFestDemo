@@ -8,6 +8,13 @@
         <value>0053h000002JF4c</value>
     </labels>
     <labels>
+        <fullName>New_Label_1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New_Label_1</shortDescription>
+        <value>New Label 1</value>
+    </labels>
+    <labels>
         <fullName>Flow_Endpoint</fullName>
         <language>en_US</language>
         <protected>true</protected>
