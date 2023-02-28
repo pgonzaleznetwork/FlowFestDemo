@@ -5,7 +5,7 @@
         <name>assignment_to_high</name>
         <label>assignment to high</label>
         <locationX>176</locationX>
-        <locationY>311</locationY>
+        <locationY>335</locationY>
         <assignmentItems>
             <assignToReference>$Record.CustomerPriority__c</assignToReference>
             <operator>Assign</operator>
@@ -13,7 +13,15 @@
                 <stringValue>High</stringValue>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.AccountNumber</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Calculated_Age__c</elementReference>
+            </value>
+        </assignmentItems>
     </assignments>
+    <environments>Default</environments>
     <interviewLabel>Flow using field in Assignment {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Flow using field in Assignment</label>
     <processMetadataValues>
